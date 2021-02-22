@@ -1,0 +1,12 @@
+name: rpa_chalange
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.7.5
+
+  - pip=21.0.1
+  - pip:
+    - rpaframework==7.5.0
+    - loguru==0.5.3
